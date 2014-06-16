@@ -33,7 +33,7 @@ WORKDIR /
 #                                                   *
 #****************************************************
 
-RUN zypper install broadwayd -y
+RUN zypper install gtk3 -y
 
 #Install gedit
 RUN zypper install -y gedit
