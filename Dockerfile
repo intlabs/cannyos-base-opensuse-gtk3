@@ -33,9 +33,10 @@ WORKDIR /
 #                                                   *
 #****************************************************
 
+# Install gtk3
 RUN zypper install -y gtk3
 
-#Install gedit
+# Install gedit
 RUN zypper install -y gedit
 
 
@@ -45,11 +46,8 @@ RUN zypper install -y gedit
 #                                                   *
 #****************************************************
 
-#SSH
-#EXPOSE 22/tcp
-
 #HTTP (broadway)
-EXPOSE 8080/tcp
+EXPOSE 80/tcp
 
 #****************************************************
 #                                                   *
