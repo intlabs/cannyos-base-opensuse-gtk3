@@ -31,7 +31,7 @@ curl https://raw.githubusercontent.com/intlabs/cannyos-base-opensuse-gtk3/master
 #     *                                                   *
 #     *****************************************************
 echo "*                                                   *"
-echo "*         Ubuntu docker container builder           *"
+echo "*   openSUSE docker containter with gtk3 builder    *"
 echo "*                                                   *"
 echo "*****************************************************"
 echo ""
