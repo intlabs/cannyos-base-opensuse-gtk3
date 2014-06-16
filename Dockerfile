@@ -33,7 +33,7 @@ WORKDIR /
 #                                                   *
 #****************************************************
 
-RUN zypper install gtk3 -y
+RUN zypper install -y gtk3
 
 #Install gedit
 RUN zypper install -y gedit
